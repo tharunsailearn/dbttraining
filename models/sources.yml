@@ -1,0 +1,21 @@
+version: 2
+ 
+sources:
+  - name: raw
+    database: ANALYTICS
+    schema: DBT
+    tables:
+      - name: patients
+        identifier: PATIENTS
+      - name: diagnoses
+        identifier: diagnoses
+      - name: disease_risk_categories
+        identifier: diseaseriskcategories
+      - name: encounters
+        identifier: encounters
+      - name: hospitals
+        identifier: hospitals
+      - name: providers
+        identifier: providers
+      - name: prescriptions
+        identifier: prescriptions
